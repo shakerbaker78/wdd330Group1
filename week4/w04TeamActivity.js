@@ -55,16 +55,16 @@ function findWinner () {
     const middleRight = document.getElementById('middleRight');
     const bottomRight = document.getElementById('bottomRight');
 
-    if ((topLeft.innerHTML === topMiddle.innerHTML === topRight.innerHTML) || (middleLeft.innerHTML === middle.innerHTML === middleRight.innerHTML)) {
-        if (topMiddle.innerHTML === "X") {
+    if ((topLeft.innerHTML == topMiddle.innerHTML == topRight.innerHTML) || (middleLeft.innerHTML == middle.innerHTML == middleRight.innerHTML)) {
+        if (topMiddle.innerHTML == "X") {
             alert("Player 1 wins!")    
         } 
         else {      
             alert("Player 2 wins!")  
          }
         }
-    else if ((topMiddle.innerHTML === middle.innerHTML === bottomMiddle.innerHTML) || (topRight.innerHTML === middleRight.innerHTML === bottomRight.innerHTML))  {   
-        if (topMiddle.innerHTML === "X") {
+    else if ((topMiddle.innerHTML == middle.innerHTML == bottomMiddle.innerHTML) || (topRight.innerHTML == middleRight.innerHTML == bottomRight.innerHTML))  {   
+        if (topMiddle.innerHTML == "X") {
              alert("Player 1 wins!")    
         }
         else {
@@ -74,8 +74,8 @@ function findWinner () {
      // 7 8 9 bottomLeft bottomMiddle bottomRight
         // 1 4 7 topLeft middleLeft bottomLeft
 
-        else if ((bottomLeft.innerHTML ===bottomMiddle.innerHTML === bottomRight.innerHTML) ||(topLeft.innerHTML ===topMiddle.innerHTML === bottomRight.innerHTML)){
-            if (bottomLeft.innerHTML ==="X"){
+        else if ((bottomLeft.innerHTML == bottomMiddle.innerHTML == bottomRight.innerHTML) ||(topLeft.innerHTML == topMiddle.innerHTML ==  bottomRight.innerHTML)){
+            if (bottomLeft.innerHTML == "X"){
             alert("Player 1 wins")
         }
         else {
