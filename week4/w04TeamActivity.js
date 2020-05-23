@@ -130,5 +130,3 @@ function completeBoard() {
         document.getElementById("bottomRight").innerHTML = "-";
 }
 
-
-
